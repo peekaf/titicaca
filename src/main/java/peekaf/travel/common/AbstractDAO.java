@@ -1,4 +1,4 @@
-package peekaf.common.dao;
+package peekaf.travel.common;
 
 import java.util.List;
 

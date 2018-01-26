@@ -1,4 +1,4 @@
-package peekaf.travel.portal;
+package peekaf.travel.portal.controller;
 
 import java.text.DateFormat;
 import java.util.Date;

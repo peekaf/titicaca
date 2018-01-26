@@ -1,4 +1,4 @@
-package peekaf.board.service;
+package peekaf.travel.portal.service;
 
 import java.util.List;
 import java.util.Map;

@@ -20,9 +20,11 @@
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
-	
-	<context:component-scan base-package="peekaf.travel.portal" />
-	
-	
+
+ 	
+	<context:component-scan base-package="peekaf.travel.portal.controller" />
+<!--
+	<context:component-scan base-package="peekaf.board.controller" />
+--> 	
 	
 </beans:beans>
