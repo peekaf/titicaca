@@ -24,14 +24,15 @@
         </tr>
     </thead>
     <tbody>
+    <!-- 
         <c:choose>
             <c:when test="${fn:length(list) > 0}">
-                <c:forEach items="${list }" var="row">
+                <c:forEach items="${list}" var="row">
                     <tr>
-                        <td>${row.IDX }</td>
-                        <td>${row.TITLE }</td>
-                        <td>${row.HIT_CNT }</td>
-                        <td>${row.CREATED_DT }</td>
+                        <td>${row.IDX}</td>
+                        <td>${row.TITLE}</td>
+                        <td>${row.HIT_CNT}</td>
+                        <td>${row.CREATED_DT}</td>
                     </tr>
                 </c:forEach>
             </c:when>
@@ -41,7 +42,7 @@
                 </tr>
             </c:otherwise>
         </c:choose>
-         
+          -->
     </tbody>
 </table>
 </body>

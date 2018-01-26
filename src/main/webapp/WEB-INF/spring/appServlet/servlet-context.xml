@@ -22,7 +22,7 @@
 	</beans:bean>
 
  	
-	<context:component-scan base-package="peekaf.travel.portal.controller" />
+	<context:component-scan base-package="peekaf.travel.portal" />
 <!--
 	<context:component-scan base-package="peekaf.board.controller" />
 --> 	
