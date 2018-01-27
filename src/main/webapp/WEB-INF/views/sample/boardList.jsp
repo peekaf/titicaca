@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>first</title>
+<title>board</title>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 </head>
@@ -24,15 +24,14 @@
         </tr>
     </thead>
     <tbody>
-    <!-- 
         <c:choose>
             <c:when test="${fn:length(list) > 0}">
-                <c:forEach items="${list}" var="row">
+                <c:forEach var="row" items="${list}" >
                     <tr>
-                        <td>${row.IDX}</td>
-                        <td>${row.TITLE}</td>
-                        <td>${row.HIT_CNT}</td>
-                        <td>${row.CREATED_DT}</td>
+                        <td>${row.idx}</td>
+                        <td>${row.title}</td>
+                        <td>${row.hit_cnt}</td>
+                        <td>${row.created_dt}</td>
                     </tr>
                 </c:forEach>
             </c:when>
@@ -42,7 +41,6 @@
                 </tr>
             </c:otherwise>
         </c:choose>
-          -->
     </tbody>
 </table>
 </body>

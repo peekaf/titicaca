@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
- 
+
+
+<!-- 
+ <select id="selectBoardList" resultType="hashmap"> 
+ --> 
 <mapper namespace="sample">
 	<select id="selectBoardList" parameterType="hashmap" resultType="hashmap">
 		SELECT
-		    IDX,
+		    IDX AS IDX,
 		    TITLE,
 		    HIT_CNT,
 		    CREATED_DT
 		FROM
 		    PUBLIC.TB_BOARD
-		ORDER BY IDX DESC
+		ORDER BY IDX DESC 
 	</select>
 </mapper>
