@@ -32,6 +32,7 @@
                         <td>${row.title}</td>
                         <td>${row.hit_cnt}</td>
                         <td>${row.created_dt}</td>
+                        
                     </tr>
                 </c:forEach>
             </c:when>
