@@ -1,4 +1,4 @@
-package peekaf.board.controller;
+package peekaf.travel.portal.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import peekaf.board.service.SampleService;
+import peekaf.travel.portal.service.SampleService;
 
 @Controller
 public class SampleController {
@@ -17,8 +17,8 @@ public class SampleController {
 	@Resource(name="sampleService")
 	private SampleService sampleService;
 	
-	@RequestMapping(value="/sample/openSampleBoardList")
-	public ModelAndView openSampleBoardList(Map<String, Object> commandMap) throws Exception {
+	@RequestMapping(value="/sample/openBoardList")
+	public ModelAndView openBoardList(Map<String, Object> commandMap) throws Exception {
 		ModelAndView mv = new ModelAndView("/sample/boardList");
 		
 		List<Map<String, Object>> list = sampleService.selectBoardList(commandMap);
@@ -26,5 +26,13 @@ public class SampleController {
 		
 		return mv;
 	}
+	
+	@RequestMapping(value="/sample/openBoardWrite")
+	public ModelAndView openBoardWrite(Map<String, Object> commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/boardWrite");
+		
+		return mv;
+	}
+	
 	
 }

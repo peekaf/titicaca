@@ -1,4 +1,4 @@
-package peekaf.board.service;
+package peekaf.travel.portal.service;
 
 import java.util.List;
 import java.util.Map;
@@ -7,7 +7,8 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import peekaf.board.dao.SampleDAO;
+import peekaf.travel.portal.dao.SampleDAO;
+
 
 @Service("sampleService")
 public class SampleServiceImpl implements SampleService {
