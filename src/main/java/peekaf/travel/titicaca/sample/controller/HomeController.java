@@ -1,4 +1,4 @@
-package peekaf.travel.portal.controller;
+package peekaf.travel.titicaca.sample.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
