@@ -5,9 +5,10 @@
 <%@ include file="/WEB-INF/include/include-header.jspf" %>
 </head>
 
+
 <body>
 <h2>게시판 목록</h2>
-	<table style="border:1px solid #ccc">
+	<table class="board_list">
 	    <colgroup>
 	        <col width="10%"/>
 	        <col width="*"/>
@@ -21,7 +22,7 @@
 	            <th scope="col">조회수</th>
 	            <th scope="col">작성일</th>
 	        </tr>
-	    </thead>
+	    </thead>	    
 	    <tbody>
 	        <c:choose>
 	            <c:when test="${fn:length(list) > 0}">

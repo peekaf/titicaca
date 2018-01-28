@@ -1,11 +1,11 @@
-package peekaf.travel.portal.dao;
+package peekaf.travel.titicaca.sample.dao;
 
 import java.util.List;
 import java.util.Map;
 
 import org.springframework.stereotype.Repository;
 
-import peekaf.travel.common.AbstractDAO;
+import peekaf.travel.titicaca.common.dao.AbstractDAO;
 
 @Repository("sampleDAO")
 public class SampleDAO extends AbstractDAO{

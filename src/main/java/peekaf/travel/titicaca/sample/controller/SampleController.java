@@ -1,4 +1,4 @@
-package peekaf.travel.portal.controller;
+package peekaf.travel.titicaca.sample.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import peekaf.travel.portal.service.SampleService;
+import peekaf.travel.titicaca.sample.service.SampleService;
 
 @Controller
 public class SampleController {

@@ -1,4 +1,4 @@
-package peekaf.travel.portal.service;
+package peekaf.travel.titicaca.sample.service;
 
 import java.util.List;
 import java.util.Map;
