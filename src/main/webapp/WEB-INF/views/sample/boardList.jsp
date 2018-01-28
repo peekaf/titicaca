@@ -7,7 +7,7 @@
 
 
 <body>
-<h2>게시판 목록</h2>
+<h2>게시판 목록2</h2>
 	<table class="board_list">
 	    <colgroup>
 	        <col width="10%"/>
