@@ -7,7 +7,7 @@
 
 
 <body>
-<h2>게시판 목록</h2>
+<h2>게시판 목록2</h2>
 	<table class="board_list">
 	    <colgroup>
 	        <col width="10%"/>
@@ -38,6 +38,7 @@
 	            </c:when>
 	            <c:otherwise>
 	                <tr>
+	                
 	                    <td colspan="4">조회된 결과가 없습니다.</td>
 	                </tr>
 	            </c:otherwise>
