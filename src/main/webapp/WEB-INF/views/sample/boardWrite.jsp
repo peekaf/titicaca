@@ -29,7 +29,7 @@
         <a href="#this" class="btn" id="list" >목록으로</a>
     </form>
      
-    <%@ include file="/WEB-INF/include/include-body.jspf" %>
+    <%@ include file="/WEB-INF/include/include-footer.jspf" %>
 	<script type="text/javascript">
 	    $(document).ready(function(){
 	        $("#list").on("click", function(e){
